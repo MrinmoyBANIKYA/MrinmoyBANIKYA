@@ -14,9 +14,6 @@
 
 
 
-###
-
-<img align="right" height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMno0Y3cxam5pMjU3amUzOXQ1eXE0NTRwd3BhNHAzOHQzdGRhdmk0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LD2ZJ0pdNmCxFikNQ5/giphy.gif"  />
 
 ###
 
@@ -44,3 +41,26 @@
 </div>
 
 ###
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+</picture>
+
+###
+
+       
+
+      - name: push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+A white circle with a dark file icon outlined in the center
+Profile Readme Generator
+Developed and maintained by Mauro de Souza
+Github
