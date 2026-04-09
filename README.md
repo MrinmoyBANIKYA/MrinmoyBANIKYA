@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mrinmoy Banikya</h1>
 <h3 align="center">A passionate AI ML developer with skills in Finance , Strategy & Analytics from India</h3>
 
-- 🔭 I’m currently working on **CreditLens[AI powered platform for SME]**
+- 🔭 I’m currently working on **NixTio[AI powered platform for Competitive Sector Analytics]**
 
 - 🌱 I’m currently learning **Machine learning frameworks and its application on real world data solving gaps & inefficiencies in finance Industry**
 
